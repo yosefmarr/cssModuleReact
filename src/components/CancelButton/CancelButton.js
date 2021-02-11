@@ -21,8 +21,7 @@ const CancelButton = (props) =>
             color: 'white'
         }
     };*/
-
-    return <button className={classes.button}>{props.title}</button>
+    return <button className={classes.button + ' ' + classes.buttonTextColor}>{props.title}</button>
 }
 
 export default CancelButton;

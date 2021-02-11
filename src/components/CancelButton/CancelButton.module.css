@@ -4,13 +4,17 @@
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    color: #ef5350 ;
     border: 1px solid #ef5350 ;
     padding: 10px 25px;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
+}
+
+.buttonTextColor
+{
+    color: #ef5350 ;
 }
 
 .button:hover {
